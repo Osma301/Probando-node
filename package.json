@@ -4,7 +4,7 @@
   "description": "mi primer hola mundo con javascript con Node en openbootcamp",
   "main": "index.js",
   "scripts": {
-    "start": "hola-mundo.js",
+    "start": "node hola-mundo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Osmando Marin",
