@@ -1,5 +1,4 @@
 let factorial = 10;
-let resultado = factorial;
 let contador = factorial - 1;
 
 while(true){
@@ -8,7 +7,7 @@ while(true){
     }
 
     else if(contador != 1){
-        resultado = resultado * contador;
+        factorial = factorial * contador;
         contador--
     }
 }

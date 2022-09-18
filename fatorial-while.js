@@ -1,10 +1,9 @@
 let factorial = 10;
-let resultado = factorial;
 let i = factorial - 1;
 
 while(i > 1){
-    resultado = resultado * i;
-    console.log(resultado);
+    factorial = factorial * i;
+    console.log(factorial);
     i--;
 }
-console.log(resultado);
+console.log(factorial);
